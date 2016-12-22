@@ -14,6 +14,7 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 $ brew install Postgresql
 $ initdb /usr/local/var/postgres
 $ createuser --pwprompt postgres
+$ psql -c 'alter user postgres with createdb' postgres
 ```
 
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
