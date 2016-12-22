@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "command": "mix",
+    "isShellCommand": true,
+    "args": [],
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "server",
+            "args": [ "phoenix.server" ]
+        }
+    ]
+}
