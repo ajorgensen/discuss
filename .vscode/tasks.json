@@ -9,6 +9,10 @@
         {
             "taskName": "server",
             "args": [ "phoenix.server" ]
+        },
+        {
+            "taskName": "migrate",
+            "args": [ "ecto.migrate" ]
         }
     ]
 }
